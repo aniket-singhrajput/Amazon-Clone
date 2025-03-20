@@ -1,0 +1,283 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box ;
+}
+
+.navbar {
+    height: 60px;
+    color: white;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    
+}
+
+
+.logo {
+    background-image: url(removebg.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    padding: 1px 8px 0px 6px;
+
+}
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+                                            /* FOR BOX TWO  */
+
+
+.add-first {
+    color: #cccccc;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+                                    /* FOR BOX THREE */
+
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+
+.selectsearch {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+
+.searchinput {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    background-color: goldenrod;
+    height: 40px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+                                    /* FOR BOX FOUR */
+
+
+span {
+    font-size: 0.7rem;
+}
+
+.Accli {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+                                /* FOR BOX SIX  */
+
+.nav-cart i {
+    font-size: 30px;
+
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+                                    /* FOR PANEL */
+
+
+.panel {
+    height: 40px;
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops {
+    width: 70%;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+
+.panel-deals {
+    font-size: 0.90rem;
+    font-weight: 700;
+}
+
+
+                                /* FOR HERO SECTION  */
+
+
+.hero-section {
+    background-image: url(hero.jpg);
+    height: 350px;
+    background-size: cover;
+    
+}
+
+
+
+                                /* SHOP SECTION */
+
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #bae1b6;
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    /* border: 2px solid black; */
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.boxcontent {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.boxcontent p {
+    color: #007185;
+}
+
+
+                                    /* FOOTER PART */
+
+
+footer {
+    margin-top: 15px;
+}
+
+.foot-pannel1 {
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.foot-pannel2 {
+    background-color: #232F3E;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 20px;
+    color: #dddddd;
+    text-decoration: none;
+}
+
+
+
+.foot-pannel3 {
+    background-color: #232F3E;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    background-image: url(removebg.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    
+}
+
+.foot-pannel44 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+
+
+
+}
+
+.pages {
+    padding-top: 25px;
+    
+}
+
+.copyright {
+    padding-top: 5px;
+}
